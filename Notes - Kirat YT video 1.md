@@ -1,0 +1,6 @@
+## Why rust
+1. Type Safety : JS, Python they dont care about types, they allow you to completely change the type at any point in the code, rust enforces the type and make you stick around with it
+2. It is a systems language : lot of access to the machine, ex- RAM, ie, it is a low level language (most programs have high level language APIs because they are widely used but under the hood the API juts calss a low level language's process like C,zig or rust)
+3. Generally faster : when a lot of requests or processes are being performed in the backend server and need to  be fast it will be made in rust, C ad not nodeJS. Because rust has a separate compilation step in which the compiler gives out a binary file which is thoroughly analyzed and built optimally and then just the binary file is executed which runs faster than any high level language which compiles whiles executing(JIT)
+4. Concurrency : Lets you optimise all the cores of a machine, when you run a rust process, threads are made and each thread can independently take up a core,making the job faster and more optimized for a machine, meaning it can use the full power of your system
+5. Memory safe : Rust has its own way of memory management which makes it memory safe, even more so than C
